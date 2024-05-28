@@ -4,12 +4,13 @@ import "./globals.css";
 import clsx from "clsx";
 import { ThemeProvider } from "@/components/theme-provider";
 import NavigationBar from "@/components/navbar";
+import Loader from "@/components/loader";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Tatanation Stack",
-  description: "Fullstack NextJS Fullstack by Tatanation",
+  title: "Tatanation",
+  description: "I am a fullstack software engineer",
 };
 
 export default function RootLayout({

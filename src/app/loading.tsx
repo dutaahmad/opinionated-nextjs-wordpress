@@ -1,8 +1,11 @@
+import Loader from '@/components/loader'
 import React from 'react'
 
 const loading = () => {
     return (
-        <div>loading...</div>
+        <div className='flex-1'>
+            <Loader />
+        </div>
     )
 }
 

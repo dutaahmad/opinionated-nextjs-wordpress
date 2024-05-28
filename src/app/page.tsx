@@ -1,9 +1,6 @@
-import DiceCube from "@/components/dice-cube";
 import { Separator } from "@/components/ui/separator";
 
 export default async function Home() {
-  const diceURL = "https://teyxwtyylywkvgbzwhoe.supabase.co/storage/v1/object/public/tatanation-nextjs-template/scene.gltf?t=2024-03-09T16%3A25%3A27.258Z"
-  const cubeURL = '/CUBE.gltf'
   return (
     <main className="w-full min-h-screen">
       <div className="flex items-center justify-evenly gap-8 h-screen m-auto">

@@ -43,7 +43,7 @@ const NavigationBar = () => {
     const path = usePathname()
 
     return (
-        <div className="flex items-center justify-end w-[30%] rounded-3xl mx-auto p-6 px-4 md:px-6 fixed inset-x-0 top-4 z-10 bg-white/80 border shadow-lg dark:bg-white/10 backdrop-filter backdrop-blur-md bg-opacity-50">
+        <div className="flex items-center justify-end md:w-[40%] rounded-3xl mx-auto p-6 px-4 md:px-6 fixed inset-x-0 top-4 z-10 bg-white/80 border shadow-lg dark:bg-white/10 backdrop-filter backdrop-blur-md bg-opacity-50">
             <nav className="hidden space-x-4 md:flex gap-12 w-full items-center justify-center">
                 <Menus menus={menus} currentPath={path} />
             </nav>
