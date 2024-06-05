@@ -12,15 +12,15 @@ const menus = [
     },
     {
         name: 'Features',
-        path: '/features',
+        path: '/',
     },
     {
         name: 'Pricing',
-        path: '/pricing',
+        path: '/',
     },
     {
         name: 'Contact',
-        path: '/contact',
+        path: '/',
     },
 ]
 
